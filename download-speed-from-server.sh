@@ -5,4 +5,4 @@ echo "Use the following command on the client:"
 echo
 echo "    wget -O /dev/null http://$IP:$PORT"
 echo
-(dd if=/dev/zero count=10000; echo -e "HTTP/1.1\n\n $(date)") | nc -l -p $PORT -q 1
+(dd if=/dev/zero count=10000 2> /dev/null; echo -e "HTTP/1.1\n\n $(date)") | nc -l -p $PORT -q 1
