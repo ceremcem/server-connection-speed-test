@@ -2,12 +2,12 @@
 
 1. Test the download speed from your server from your current location:
 
-	1. Run `./download-speed-from-server.sh`
+	1. Run `./download-speed-from-server.sh` on the target server
 	2. Follow the instructions
 
 2. Test the upload speed to your server from your current location:
 	
-	1. Run `./upload-speed-to-server.sh`
+	1. Run `./upload-speed-to-server.sh` on the target server
 	2. Follow the instructions
 
 3. Test the machine's maximum possible upload and download speeds:
